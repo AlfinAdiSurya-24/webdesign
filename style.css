@@ -139,7 +139,7 @@ nav a:hover{
 #about h3{
     font-family: 'Bowlby One SC', cursive;
     margin-right: auto;
-    margin-left: auto;
+    /* margin-left: auto; */
 }
 
 
