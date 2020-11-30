@@ -1,0 +1,145 @@
+/* HEAD */
+.img_sup{
+    height: 500px;
+    width : 500px;
+    top: -10%;
+    position: absolute;
+}
+.img_sup img{
+    height: 100%;
+    width : 100%;
+    object-fit: fill;
+    position: absolute;
+    z-index: -1;
+    transform: rotate(180deg);
+}
+
+nav{
+    margin-top: 4em;
+    border-right: 0.5em solid rgb(60, 240, 240);
+    position: relative;
+}
+
+.nav{
+    padding-left: 1.5em;
+}
+
+nav a{
+    color: black;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.3em;
+    transition: 0.5s;
+    scale: 1;
+}
+nav a:hover{
+    scale: 1.2;
+    color: rgb(60, 240, 240);
+}
+
+#home{
+    margin-top: 3em;
+}
+
+#home figure{
+    height: 600px;
+    position: relative;
+}
+
+#home figure img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 70%;
+    border-radius: 1em;
+}
+
+#home .text_head{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+}
+
+#home .text_head h4,
+#home .text_head p{
+    width: 100%;
+}
+#home .text_head h4{
+    font-size: 2em;
+    font-family: 'Bowlby One SC', cursive;
+}
+#home .text_head p{
+    font-size: 2em;
+}
+
+#home .text_head img,
+#home .text_head p,
+#home .text_head h4{
+    float: right;
+    text-align: right;
+}
+
+/* DESTINASI */
+#destinasi{
+    background: linear-gradient(rgb(188, 221, 255), rgb(69, 156, 242));
+}
+
+#destinasi .menu_title{
+    font-family: 'Bowlby One SC', cursive;
+    color: white;
+    text-align: center;
+}
+
+#destinasi .card p{
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+#destinasi .card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+#destinasi .card .harga{
+    color: rgb(255, 225, 0);
+    text-align: right;
+    font-family: 'Bowlby One SC', cursive;
+    font-weight: bold;
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+
+#destinasi .card-body {
+    height: 370px;
+}
+
+/* KULINER */
+#kuliner img{
+    height: 400px;
+    object-fit: cover;
+}
+
+#kuliner h5{
+    background-color: rgba(0, 0, 0, 0.46);
+    padding: 0.5em 0.6em;
+}
+
+
+/* BUDAYA */
+#budaya .card{
+    box-shadow: 16px 16px 16px 16px  rgba(0,0,0,0.2);
+}
+
+#budaya .budaya_title{
+    font-family: 'Bowlby One SC', cursive;
+}
+
+/* ABOUT */
+#about h3{
+    font-family: 'Bowlby One SC', cursive;
+    margin-right: auto;
+    /* margin-left: auto; */
+}
+
+
